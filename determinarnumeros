@@ -8,7 +8,7 @@ Algoritmo DeterminarNumeros
 	Escribir 'Positivos, Negativos, Pares, e Impares'
 	Escribir ''
 	Escribir 'Ingrese los 40 números (1 por uno): '
-	Para contador<-1 Hasta 40 Hacer
+	Para contador<-1 Hasta 40 Hacer //Hacer un leeer de 40 dígitos
 		Leer numero
 		Si numero MOD 2=0 Entonces //Mod = Probar si dos números pueden dividirse de manera exacta o aislar el resto de un cálculo de división 
 			par <- par+1

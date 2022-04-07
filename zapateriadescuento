@@ -1,0 +1,17 @@
+Algoritmo RodolfoGuerreroMedina
+	Escribir '¿Cuántos zapatos quieres?'
+	Leer numzap
+	total2 <- numzap*100
+	descuento <- 0
+	Si numzap>10 Y numzap<=20 Entonces
+		descuento <- total2*0.1
+	FinSi
+	Si numzap>20 Y numzap<=30 Entonces
+		descuento <- total2*0.2
+	FinSi
+	Si numzap>30 Entonces
+		descuento <- total2*0.4
+	FinSi
+	total <- total2-descuento
+	Escribir 'El precio será de: $',total
+FinAlgoritmo

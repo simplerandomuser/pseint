@@ -1,4 +1,4 @@
-Algoritmo RodolfoGuerreroMedina
+Algoritmo Zapateria
 	Escribir '¿Cuántos zapatos quieres?'
 	Leer numzap
 	total2 <- numzap*100

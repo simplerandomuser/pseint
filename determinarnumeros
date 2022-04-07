@@ -1,4 +1,4 @@
-Algoritmo RodolfoGuerreroMedina
+Algoritmo DeterminarNumeros
 	Definir par,impar,positivo,negativo,contador,numero Como Real
 	par <- 0
 	impar <- 0

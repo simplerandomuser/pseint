@@ -1,0 +1,30 @@
+Algoritmo RodolfoGuerreroMedina
+	Definir par,impar,positivo,negativo,contador,numero Como Real
+	par <- 0
+	impar <- 0
+	positivo <- 0
+	negativo <- 0
+	Escribir 'Programa para contar numeros'
+	Escribir 'Positivos, Negativos, Pares, e Impares'
+	Escribir ''
+	Escribir 'Ingrese los 40 números (1 por uno): '
+	Para contador<-1 Hasta 40 Hacer
+		Leer numero
+		Si numero MOD 2=0 Entonces
+			par <- par+1
+		SiNo
+			impar <- impar+1
+		FinSi
+		Si numero>0 Entonces
+			positivo <- positivo+1
+		SiNo
+			Si numero<0 Entonces
+				negativo <- negativo+1
+			FinSi
+		FinSi
+	FinPara
+	Escribir 'Pares: ',par
+	Escribir 'Impares: ',impar
+	Escribir 'Positivos: ',positivo
+	Escribir 'Negativos: ',negativo
+FinAlgoritmo

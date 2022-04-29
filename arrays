@@ -1,4 +1,4 @@
-Algoritmo DeterminarNumeros
+Algoritmo Arrays
 	Definir nulos,positivo,negativo,contador,numero Como Real
 	nulos <- 0
 	positivo <- 0

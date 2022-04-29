@@ -1,0 +1,26 @@
+Algoritmo DeterminarNumeros
+	Definir nulos,positivo,negativo,contador,numero Como Real
+	nulos <- 0
+	positivo <- 0
+	negativo <- 0
+	Escribir "Programa ARRAYS"
+	Escribir "Positivos, Negativos y Nulos"
+	Escribir ""
+	Escribir "Ingrese los 20 números (1 por uno): "
+	Para contador<-1 Hasta 20 Hacer //Hacer un leeer de 40 dígitos
+		Leer numero
+		Si numero==0 Entonces
+			nulos <- nulos+1
+		FinSi
+		Si numero>0 Entonces
+			positivo <- positivo+1
+		SiNo
+			Si numero<0 Entonces
+				negativo <- negativo+1
+			FinSi
+		FinSi
+	FinPara
+	Escribir 'Nulos: ',nulos
+	Escribir 'Positivos: ',positivo
+	Escribir 'Negativos: ',negativo
+FinAlgoritmo
